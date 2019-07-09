@@ -7,14 +7,61 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+	<style>
+	.banner_img {	
+					padding-top: 8px;
+					padding-bottom: 8px;
+					padding-right: 10px;
+     				float:left;
+    			}
+
+	.banner_head   	{	
+					color: white;
+	  				font-size: 22px;
+	  				padding-left: 30px;
+	  				padding-right: 50px;
+	  				margin: 12px;
+	  				}
+
+
+	.banner_nav   	{	
+					color: lightgray;
+	  				font-size: 22px; 
+	  				margin-top: 12px;
+	  				}
+	</style>
+
+
   </head>
   <body>
+
+
+    <div class="wrapper-masthead" style="background-color: blue;">
+      <div class="container">
+
+        <header>
+          <a href="https://scotentsd.github.io/" >
+          		<img src="images/SaltireCross.png" alt="Service Design Saltire Logo" class="banner_img" />
+          </a>
+
+            <span class="banner_head">A Scottish Enterprise Service Design site</span>
+
+            <!--<span class="banner_head"> -->
+            <a href="https://scotentsd.github.io/blog"   class="banner_nav">Blog |</a>
+            <a href="https://scotentsd.github.io/about"  class="banner_nav"> About  |</a>
+            <a href="https://scotentsd.github.io/help"   class="banner_nav"> Help</a>
+        	<!-- </span> -->
+        </header>
+
+      </div>
+    </div>
+
     <div class="container-lg px-3 my-5 markdown-body">
 
-      
       {{ content }}
 
-      
+
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. {% github_edit_link "Improve this page" %}.
