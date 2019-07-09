@@ -25,7 +25,7 @@
 
 # Sharepoint Folders (Internal only)
 - [Intranet](https://scotent.sharepoint.com/sites/Intranet)
-- Service Design](https://scotent.sharepoint.com/sites/Marketing-and-Service-Transformation/SitePages/Service-Design.aspx)- 
+- [Service Design](https://scotent.sharepoint.com/sites/Marketing-and-Service-Transformation/SitePages/Service-Design.aspx)- 
 
 
 # Test rounds (To be moved to SEP reporitory)
