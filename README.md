@@ -18,9 +18,6 @@
 # Stuff
 - [Interesting links](interesting.md)
 
-# Silly
-- [Ardrossan Herald](http://www.ardrossanherald.com/)
-
 ---
 
 # Sharepoint Folders (Internal only)
