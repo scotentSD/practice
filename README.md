@@ -25,14 +25,4 @@
 
 # Sharepoint Folders (Internal only)
 - [Intranet](https://scotent.sharepoint.com/sites/Intranet)
-- [Service Design](https://scotent.sharepoint.com/sites/Marketing-and-Service-Transformation/SitePages/Service-Design.aspx)- 
-
-
-# Test rounds (To be moved to SEP reporitory)
-- [SEP:   27th March 2019](ur/testing/sep) and [SEP 27 Mar results](/testing/sep27mar.pdf) 
-- [SEP:   27 March 2019 Domain survey results via WUD](https://www.surveymonkey.com/results/SM-XKLQTVVNV/) 
-
-
-
-
-
+- [Service Design](https://scotent.sharepoint.com/sites/Marketing-and-Service-Transformation/SitePages/Service-Design.aspx)-
