@@ -287,6 +287,8 @@ footer {
 th {
 border: 10px;
 padding: 10px;
+font-weight: bold;
+line-height: 30px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
