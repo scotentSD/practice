@@ -4,6 +4,15 @@
 //
 // IMPORTS MK1
 //
+//tables
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 
 @import "reset";
 @import "variables";
@@ -283,14 +292,7 @@ footer {
   text-align: center;
 }
 
-//tables
-table {
-  border-collapse: collapse;
-}
 
-table, th, td {
-  border: 1px solid black;
-}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
