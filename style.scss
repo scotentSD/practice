@@ -284,11 +284,12 @@ footer {
 }
 
 //tables
-th {
-border-width: thick;
-padding: 10px;
-font-weight: bold;
-line-height: 30px;
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
