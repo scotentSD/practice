@@ -7,7 +7,7 @@
 [https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/list-top-10-types-cognitive-bias/](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/list-top-10-types-cognitive-bias/)
 
 
-## Resources
+## Resources 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
 
