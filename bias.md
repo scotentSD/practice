@@ -10,3 +10,4 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 - [](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/list-top-10-types-cognitive-bias/)
 
 
+
