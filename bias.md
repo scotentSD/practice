@@ -1,4 +1,6 @@
 ## Bias info
+There are lots of types of Bias. Many of them are specific tp certain industries, technologies or situations. 
+Here are some that are relevant to digital channels.
 
 
 ## Common types of Bias that are relevant to digital channel`s
