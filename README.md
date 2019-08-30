@@ -7,7 +7,7 @@
 - [Pitch Canvas](/techniques/PitchCanvasV3.pdf)
 - [Hypothesis Card](/techniques/HypothesisCardV2.pdf)
 - [Learning Card](/techniques/LearningCardV2.pdf)
-
+- [Accesibility Heristics]
 ---
 
 # Design Crits example
