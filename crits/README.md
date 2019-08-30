@@ -92,11 +92,11 @@ Look at the: [GDS Feedback rules posters](Poster_GivingAskingReceivingFeedback.p
 
 ## Criticism vs Critique
 
-- Criticism passes judgement — **Critique poses questions**
-- Criticism finds fault  —  Critique **uncovers opportunity**
-- Criticism is personal  —  Critique **is objective**
-- Criticism is vague  —  Critique **is concrete**
-- Criticism tears down  —  Critique **builds up**
-- Criticism is ego-centric  —  Critique **is altruistic**
-- Criticism is adversarial  —  Critique **is cooperative**
-- Criticism belittles the designer  —  Critique **improves the design**
+- Criticism **passes judgement** — Critique **poses questions**
+- Criticism **finds fault**  —  Critique **uncovers opportunity**
+- Criticism **is personal**  —  Critique **is objective**
+- Criticism **is vague**  —  Critique **is concrete**
+- Criticism **tears down**  —  Critique **builds up**
+- Criticism **is ego-centric**  —  Critique **is altruistic**
+- Criticism **is adversarial**  —  Critique **is cooperative**
+- Criticism **belittles the designer**  —  Critique **improves the design**
