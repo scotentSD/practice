@@ -37,7 +37,8 @@ Confirmation bias is the idea that people seek out information and data that con
 Hindsight bias is the theory that when people predict a correct outcome, they wrongly believe that they “knew it all along”.
 
 ### 10 Representativeness Heuristic
-> Representativeness heuristic, is a cognitive bias that happens when people falsely believe that if two objects are similar, then they are also correlated with each other. That is not always the case. (Have a look at [Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles))
+Representativeness heuristic, is a cognitive bias that happens when people falsely believe that if two objects are similar, then they are also correlated with each other. 
+> That is not always the case. (Have a look at [Gestalt Principles](https://www.interaction-design.org/literature/topics/gestalt-principles))
 
 
 ## Resources 
