@@ -23,5 +23,4 @@
 - [Interesting links](interesting.md)
 - [Bias in Digital Channel usage](bias.md)
 
-
 ---
