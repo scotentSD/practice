@@ -8,10 +8,12 @@
 - [Hypothesis Card](/techniques/HypothesisCardV2.pdf)
 - [Learning Card](/techniques/LearningCardV2.pdf)
 - [Accesibility](https://scotentsd.github.io/a11y/)
+
 ---
 
 # Design Crits example
 - [Open Innovation Design Crit page](crits/openinnovation)
+
 
 ---
 
