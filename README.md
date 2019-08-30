@@ -14,8 +14,8 @@
 ---
 
 # Design Crits example
-
 - [Open Innovation Design Crit page](crits/openinnovation)
+
 ---
 
 # Stuff
