@@ -7,6 +7,7 @@ Here are some that are relevant to digital channels.
 Overconfidence results from someone’s false sense of their skill, talent, or self-belief. It can be a dangerous bias and is very prolific in behavioral finance and capital markets. 
 '''The most common manifestations of overconfidence include the illusion of control, timing optimism, and the desirability effect. (The desirability effect is the belief that something will happen because you want it to.)
 '''
+
 ### 2 Self Serving Bias
 Self-serving cognitive bias is the propensity to attribute positive outcomes to skill and negative outcomes to luck.   
 
