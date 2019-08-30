@@ -9,6 +9,27 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+
+/**************/
+/* MK         */
+/**************/
+
+blockquote {
+  display: block;
+  margin: 2em auto;
+  padding: 2em;
+  border: 2em solid transparent;
+  box-shadow: 5px 3px 30px black;
+  font-size: 1.4em;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  line-height: 1.5;
+  }
+
+
+
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -280,18 +301,6 @@ footer {
   text-align: center;
 }
 
-
-blockquote {
-  display: block;
-  margin: 2em auto;
-  padding: 2em;
-  border: 2em solid transparent;
-  box-shadow: 5px 3px 30px black;
-  font-size: 1.4em;
-  font-family: 'Lora', serif;
-  font-style: italic;
-  line-height: 1.5;
-  }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
