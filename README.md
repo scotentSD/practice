@@ -1,6 +1,7 @@
 
 
 # Techniques
+
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
@@ -13,10 +14,12 @@
 ---
 
 # Design Crits example
+
 - [Open Innovation Design Crit page](crits/openinnovation)
 ---
 
 # Stuff
+
 - [Interesting links](interesting.md)
 - [Bias in Digital Channel usage](bias.md)
 
