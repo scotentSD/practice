@@ -24,3 +24,6 @@
 - [Bias in Digital Channel usage](bias.md)
 
 ---
+
+<br>
+<div>Last updated: {{site.time | date_to_string}}</div>
