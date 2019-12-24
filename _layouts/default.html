@@ -2,9 +2,6 @@
 <html lang="en">
 
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
     {% include meta.html %}
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.description }}</title>
     <link rel="stylesheet" type="text/css" media="screen" href="https://scotentsd.github.io/assets/css/style.css">
@@ -21,12 +18,7 @@
             <h1 id="project_title">Practice and Techniques</h1>
           </a>
           <h2 id="project_tagline">Learning and Shared Practice</h2>
-          <nav>
-            <a href="https://scotentsd.github.io/">Home</a>
-            <a href="https://scotentsd.github.io/about">About</a>
-            <a href="https://scotentsd.github.io/blog">Blog</a>
-            <a href="https://scotentsd.github.io/help">Help</a>
-          </nav>
+          {% include nav.html %}
         </header>
     </div>
 
