@@ -25,5 +25,9 @@
 
 ---
 
+# Books
+
+- [Good Services - by Lou Downe](good-services-book.md)
+
 <br>
 <div>Last updated: {{site.time | date_to_string}}</div>
