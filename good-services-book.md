@@ -1,7 +1,7 @@
 <h1><span>Lou Downe - Good services</span></h1>
 <p><span class="lou">A service is something that helps someone to do something</span></p>
 <p>Pre internet era services still account for the vast majority of services we use and were designed for a very different world to the one we now live in. We often don't rely on a new technology until that technology is ubiquitous. since we don't have a clear definition of this, the more cautious organisations often lag well behind, waiting until the majority of their customers use a particular technology before changing their services.</p>
-<p>The simple fact that our service weren't designed for the channel they're delivered in, is one of the most common causes of service failure.</p>
+<p>The simple fact that our services weren't designed for the channel they're delivered in, is one of the most common causes of service failure.</p>
 
 <p><strong>A timeline of services</strong></p>
 <ul>
@@ -15,24 +15,24 @@
     introduction of computerised processes and increasing number of unique IDs and account numbers
     <li>1970s: process + forms + customer service</li>
 </ul>
-<p>Services today are composed of small component pieces joined together through data or user experience to for a seamless user journey that helps a user achieve their goal.</p>
+<p>Services today are composed of small component pieces joined together through data or user experience to form a seamless user journey that helps a user achieve their goal.</p>
 <p>In a way, each service is broken down into steps, and each steps into a series of tasks. Each one of these tasks will probably be called 'a service' by the person running it. What defines the edge of a service is very dependent on your context, so if all you do all day everyday is provide surveys, it's easy to think of the service as providing surveys. </p>
-<p>Your user defines what a service is by what it is they want to achieve</p>
-<p>The way your user thinks and talks about your service is likely to be different to the way that you do</p>
+<p><span class="lou-y">Your user defines what a service is by what it is they want to achieve</span></p>
+<p>The way your user thinks and talks about your service is likely to be different to the way that you do.</p>
 <br>
 <h2>A good service should:</h2>
 
 <h3>1. Be easy to find</h3>
 ... by a user with no prior knowledge of the task they are set out to do.<br>
-Where your user starts will depends on how much they're already aware of what services might be available to meet their needs. Your job is to make sure that they can get from this goal to the service you provide, without having to resort to support.<br>
+Where your user starts will depend on how much they're already aware of what services might be available to meet their needs. Your job is to make sure that they can get from this goal to the service you provide, without having to resort to support.<br>
 <span class="lou-g">Good services are verbs</span><span class="lou-y">Bad services are nouns</span>:<br>
 For most organisations, services are individual discrete actions that need to be completed in a specific order (like 'account registration'). Because these isolated activities need to be identifiable for the people operating them, we've given them names, nouns, to help us keep track of them internally.<br>
 Over time, these names become exposed to users, even if we don't mean them to be initially.<br> 
 We often place users in a situation where to find something they need to know exactly what they are looking for.<br>
 <span class="lou">Google is the homepage of your service</span><br>
-The name of your service makes a statement to your user about what your service does for them<br>
+The name of your service makes a statement to your user about what your service does for them.<br>
 <span class="lou-g">Nouns are for experts</span><span class="lou">Verbs are for everyone</span><br>
-To name your service: avoid legal or technical language, describe a task, not a technology, don't use acronyms<br><br>
+To name your service: avoid legal or technical language, describe a task, not a technology, don't use acronyms.<br><br>
 
 <h3>2. Clearly explain its purpose</h3>
 The purpose must be clear to the user at the start of the service. A user with no prior knowledge must understand:<br>
@@ -40,9 +40,10 @@ The purpose must be clear to the user at the start of the service. A user with n
 - why it does it <br>
 - how it does it<br>
 - who it is for <br>
-You need to clearly communicate this by: the service name and description and even the interface of how it works<br><br>
-<h3>3. Set a user's expectations of it</h3>
-Explain what is needed from the user to complete the service, what the user can expect from the service provider in return. (for example: how long something will take to complete, how much it cost, any restrictions)<br>
+<br>
+You need to clearly communicate this by the service name and description and even the interface of how it works<br><br>
+<h3>3. Set a user's expectations of the service</h3>
+Explain what is needed from the user to complete the service, what the user can expect from the service provider in return (for example: how long something will take to complete, how much it cost, any restrictions).<br>
 Before wondering how you're going to manage your users expectations, it's important to understand what expectations they have in the first place. Most people base their expectations on past experiences. You need to do your research.<br>
 <br>There are 3 types of expectations: <br>
     - universal (fundamental to your service - to monitor closely, but not need to explain it)<br>
@@ -82,7 +83,7 @@ It's particularly prevalent in the public sector, where there are many services 
     <li>make no presumption about how much your user knows</li>
     <li>work in a way that is familiar (principle 5)</li>
     <li>work in a way that is agnostic to organsationa structures (principle 7)</li>
-</ul><br>
+</ul>
 <h3>7. Be agnostic of organisational structures</h3>
 The service must work in a way that doesn't unnecessarily expose a user to the internal structures of the organisation providing it.<br>
 For the first time, we are facing unprecedented demands to join up our services that finally match our ability to do something about it. Providing these joined-up services poses a number of challenges that go beyond what skills we have or what software we use.<br>
@@ -102,7 +103,7 @@ If collaboration was easy, we'd all be doing it. The reality is that it's very h
 - shared goals (and everyone fully getting behind)<br>
 - shared incentives<br>
 <br>
-In summary<br>
+In summary:<br>
 <ul>
     <li>recognise the potential silos in your organisation - or with other organisations that might be providing parts of the same services</li>
     <li>if you can't change your operating model, change the way you communicate and collaborate</li>
@@ -119,7 +120,7 @@ Transactional services: needs to be done very quickly with as little interaction
 In summary:<br>
 <ul>
     <li>review where decisions need to be made in your service (look at your service end-to-end)</li>
-    <li>allow users to focus on onw task at a time</li>
+    <li>allow users to focus on one task at a time</li>
     <li>think about how fast or slow your steps need to be</li>
 </ul>
 <br>
@@ -128,7 +129,7 @@ The service should look and feel like one service throughout, regardless of the 
 A service can be inconsistent between steps in this service or between channels, for example the online channel might be well designed the set of values and processes has not been communicated to the rest of the organisation (face-to-face or phone)<br>
 A strength held in one area should be consistently shared across organisation.<br>
 <span class="lou-g">Good services are only as strong as their weakest link</span><br>
-While it's vital for services to be consistent, they are also complex and varied, and some parts of your service will need to look and behave differently from the rest. For example =, how you talk to your users when they sign up for an account is different to how you then talk to your users when they have a complaint that needs solving.<br>
+While it's vital for services to be consistent, they are also complex and varied, and some parts of your service will need to look and behave differently from the rest. For example, how you talk to your users when they sign up for an account is different to how you then talk to your users when they have a complaint that needs solving.<br>
 <span class="lou-y">Good services are consistent, not uniform</span><br>
 4 dimensions of consistency: across user journey, in each channel, over time, between users<br>
 <br>Principles:<br>
@@ -139,7 +140,7 @@ While it's vital for services to be consistent, they are also complex and varied
 </ul>
 <br>
 <h3>10. Have no dead ends</h3>
-A service should direct all users, regardless of whether the user is eligible or suitable to use the service. No user should be left behind or stranded within a service. No user should be left behind or stranded within a service without knowing how to continue<br>
+A service should direct all users, regardless of whether the user is eligible or suitable to use the service. No user should be left behind or stranded within a service without knowing how to continue.<br>
 <br>4 main reasons for dead ends:<br>
 <ul>
     <li>they're not eligible to use your service</li>
@@ -155,7 +156,8 @@ A service should direct all users, regardless of whether the user is eligible or
 - an address or proof of address<br>
 - any of the above in the country you are operating in <br>
 <br>
-<br>How you can mitigate dead ends in your service:<br>
+<br>
+How you can mitigate dead ends in your service:<br>
 <ul>
     <li>provide onward routes for people who aren't eligible to use your service</li>
     <li>ensure your service is inclusive</li>
@@ -178,14 +180,14 @@ The service must be usable by everyone who needs to use it, regardless of their 
 <br>
 <span class="lou-y">Inclusion means that your user can not only use your service but feel safe, welcome and use it in a way that make them feel equal to all other users</span><br>
 Make sure your service is: safe, perceivable, understandable, operable, robust, and equal.<br>
-<span class="lou-g">inclusion is like making blueberry muffin - it's a lot easier to put the blueberries in at the start than at the end. - Cordelia McGee-Tubb</span><br>
+<span class="lou-g">inclusion is like making blueberry muffin - it's a lot easier to put the blueberries in at the start than at the end.<br> - Cordelia McGee-Tubb</span><br>
 <br>
 <h3>12. Encourage the right behaviours from users and service providers</h3>
 <span class="lou-y">What's measured gets done</span><br>
 <ul>
     <li>remember what you are trying to achieve</li>
     <li>make sure you focus on balancing the behaviours you expect of your staff and your organisation. Don't just focus on one of these</li>
-    <li>make sure that the outcome you want yo achieve is encoded in every layer of your organisation, from its business model and staff targets, right down to the way your users interact with your service</li>
+    <li>make sure that the outcome you want to achieve is encoded in every layer of your organisation, from its business model and staff targets, right down to the way your users interact with your service</li>
 </ul>
 <br>
 <h3>13. Quickly respond to change</h3>
@@ -242,4 +244,5 @@ about 43% of these calls are status chasing calls<br>
     <li><a href="https://www.fastcompany.com/90214914/amazon-airbnb-and-asos-are-all-investing-in-this-one-simple-design-idea" target="_blank" rel="noopener"><strong>15 principles for service design (Fast Company)</strong></a></li>
     <li><a href="https://www.gov.uk/service-manual/design/introduction-designing-government-services#the-characteristics-of-a-good-government-service" target="_blank" rel="noopener"><strong>GOVUK definition of a good services</strong></a></li>
 </ul>
-
+<br>
+<div>Last updated: {{site.time | date_to_string}}</div>
