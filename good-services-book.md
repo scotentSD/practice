@@ -20,7 +20,7 @@
 <p>Your user defines what a service is by what it is they want to achieve</p>
 <p>The way your user thinks and talks about your service is likely to be different to the way that you do</p>
 <br>
-<p><strong>A good service should:</strong></p>
+<h2>A good service should:</h2>
 
 <h3>1. Be easy to find</h3>
 ... by a user with no prior knowledge of the task they are set out to do.<br>
@@ -208,7 +208,7 @@ When designing decision-making in your service, make sure:<br>
     <li>there is a way to appeal your decision</li>
 </ul>
 <br>
-<h3>15. Make it easy to get human assistance<h3>
+<h3>15. Make it easy to get human assistance</h3>
 <span class="lou">Use computers and humans for what they are good at</span><br>
 <span class="lou-g">What differenciates your service is not whether or not it fails, but how it deals with failure when it happens</span><br>
 <span class="lou-y">Hiding your phone number just pisses people off</span><br>
