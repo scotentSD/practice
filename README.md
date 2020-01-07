@@ -2,13 +2,15 @@
 
 # Techniques
 
+- [Accessibility ](https://scotentsd.github.io/a11y/)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
 - [Pitch Canvas](/techniques/PitchCanvasV3.pdf)
 - [Hypothesis Card](/techniques/HypothesisCardV2.pdf)
 - [Learning Card](/techniques/LearningCardV2.pdf)
-- [Accessibility ](https://scotentsd.github.io/a11y/)
+- [Cynefin framework](cynefin.md)
+- [Wardley maps](wardley.md)
 
 
 ---
