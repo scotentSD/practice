@@ -7,7 +7,7 @@
  <iframe class ="img-half-width"  width="560" height="315" src="https://www.youtube.com/embed/N7oz366X0-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<p>This is not a model. A model seek to represent reality while a framework is a way of looking at reality. It's not about making categories but about making sense'.<br>
+<p>This is not a model. A model seek to represent reality while a framework is a way of looking at reality. It's not about making categories but about making sense.<br>
   In categorisation models, Framework precedes data<br>
   In sense making models: data precedes framework<br>
   There are 5 domains, 2 ordered on the right, 2 unordered on the left and disorder in the middle<br>
