@@ -9,8 +9,8 @@
 - [Pitch Canvas](/techniques/PitchCanvasV3.pdf)
 - [Hypothesis Card](/techniques/HypothesisCardV2.pdf)
 - [Learning Card](/techniques/LearningCardV2.pdf)
-- [Cynefin framework](cynefin.md)
-- [Wardley maps](wardley.md)
+- [Cynefin framework](/techniques/cynefin.md)
+- [Wardley maps](/techniques/wardley.md)
 
 
 ---
