@@ -4,7 +4,7 @@
 
 <p>Cynefin is a Welsh word (Dave Snowden is Welsh). It means approximately "The place(s) where I belong." <strong>Cynefin is a way of making sense of the world</strong>: of human organisation primarily.</p>
 
- <iframe class ="img-half-width"  width="560" height="315" src="https://www.youtube.com/embed/N7oz366X0-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe title="Dave Snowden explaining the Cynefin framework" class ="img-half-width"  width="560" height="315" src="https://www.youtube.com/embed/N7oz366X0-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <p>This is not a model. A model seek to represent reality while a framework is a way of looking at reality. It's not about making categories but about making sense.<br>
