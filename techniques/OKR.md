@@ -10,4 +10,4 @@ The OKR framework aims to define company and team "objectives" along with linked
 
 ## Example of how we have use this for our Single Entry point project (SEP)
 
-[Objectives and key results OKR's for SEP](/files/SEPOKR.pdf)
+[Objectives and key results OKR's for SEP](https://scotentsd.github.io/sep/files/SEPOKR.pdf)
