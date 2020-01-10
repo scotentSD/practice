@@ -11,6 +11,7 @@
 - [Learning Card](/techniques/LearningCardV2.pdf)
 - [Cynefin framework](/techniques/cynefin.md)
 - [Wardley maps](/techniques/wardley.md)
+- [OKR - Objectives and Key Results](/techniques/OKR.md)
 
 
 ---
