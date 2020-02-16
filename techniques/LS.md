@@ -1,4 +1,4 @@
-#What is a Liberating Structure (LS)?
+# What is a Liberating Structure (LS)?
 >_“Simple rules that make it easy to include and unleash everyone in shaping the future”_ – Henri Lipmanowicz and Keith McCandless
 
 When you have a group of people, in a meeting or a workshop, you usually have some with a stronger voice, others who won’t say anything, and some who will follow the flow without really taking part. Decisions and outcomes of the meeting will, most of time, only represent the ideas of the most powerful in the room.
