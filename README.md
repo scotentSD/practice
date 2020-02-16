@@ -12,6 +12,7 @@
 - [Cynefin framework](/techniques/cynefin.md)
 - [Wardley maps](/techniques/wardley.md)
 - [OKR - Objectives and Key Results](/techniques/OKR.md)
+- [Liberation Structures](/techniques/LS.md)
 
 
 ---
