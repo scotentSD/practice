@@ -14,6 +14,11 @@
 - [OKR - Objectives and Key Results](/techniques/OKR.md)
 - [Liberating Structures](/techniques/LS.md)
 
+---
+
+# Remote working
+- [User Research](remote/user-research)
+- more to come ...
 
 ---
 
