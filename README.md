@@ -18,7 +18,9 @@
 
 # Remote working
 - [User Research](remote/user-research)
-- more to come ...
+- [Facilitating sessions](remote-facilitating)
+- [Tools](remote/tools)
+- [Articles on people's experience](remote-articles)
 
 ---
 
