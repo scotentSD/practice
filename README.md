@@ -21,7 +21,7 @@
 - [Facilitating sessions](remote/facilitating)
 - [OCD - Playbook - Doing User Centred Design work remotely - By SG](https://docs.google.com/document/d/10DhHAJUMMfyID31mGgSpLOzBW42LEv1kguFbDV2ehtw/edit#heading=h.wmc7ivby4haz) and slides as PDF [are here](files/OCD-PlaybookDoingUserCentredDesignWorkRemotely-17March2020.pdf)
 - [Articles on people's experience](remote/articles)
-- [COVID19 specific](remote/covid19)
+- [COVID19 specific material](remote/covid19)
 - [Tools](remote/tools)
 
 ---
