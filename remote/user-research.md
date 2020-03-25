@@ -1,8 +1,11 @@
-# Doing User Reearch Remotely
+# Doing User Research Remotely
 <p><a href="https://medium.com/@david.hamill/moderating-ux-research-with-zoom-1d4e89614277" target="_blank" rel="noopener"><strong>Moderating UX research with Zoom</strong> - Article from David Hamill</a></p>
+<br>
  <p><a href="https://docs.google.com/presentation/d/1T0sjyDlvCRJG95q9LYmPiPaU8baLG7L2IQwRpNsfq2M/edit#slide=id.g7f2e6c6d61_4_4" target="_blank" rel="noopener"><strong>Making design research work remotely - From FutureGov</strong> - Google doc</a></p>
  
- [Slides for FutureGov as a PDF](../files/Making-design-research-work-remotely.pdf) - downloaded on the 25/03/20
+ _[Slides for FutureGov above, as a PDF](../files/Making-design-research-work-remotely.pdf) - downloaded on the 25/03/20_
+
+<br><br>
  
 <p><a href="https://twitter.com/DrSalmaPatel/status/1242418527056912384" target="_blank" rel="noopener"><strong>Twitter thread from Salma Patel</strong></a>:</p>
 
