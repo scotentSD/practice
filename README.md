@@ -18,7 +18,7 @@
 
 # Remote working
 - [User Research](remote/user-research)
-- [Facilitating sessions](remote-facilitating)
+- [Facilitating sessions](remote/facilitating)
 - [Tools](remote/tools)
 - [Articles on people's experience](remote/articles)
 - [COVID19 work sessions online](remote/covid19)
