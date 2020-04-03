@@ -5,6 +5,8 @@
  
  _[Slides for FutureGov above, as a PDF](../files/Making-design-research-work-remotely.pdf) - downloaded on the 25/03/20_
 
+<p><a href="https://userresearch.blog.gov.uk/2020/04/02/user-research-and-covid-19-crowdsourcing-tools-and-tips-for-remote-research/" target="_blank" rel="noopener">GOVUK Blog: <strong>User Research and COVID-19: crowdsourcing tools and tips for remote research</strong></a></p>
+<p><a href="https://www.gov.uk/service-manual/user-research/conducting-user-research-while-people-must-stay-at-home-because-of-coronavirus" target="_blank" rel="noopener">GOVUK Blog: <strong>Conducting user research while people must stay at home because of coronavirus</strong></a></p>
 <br><br>
  
 <p><a href="https://twitter.com/DrSalmaPatel/status/1242418527056912384" target="_blank" rel="noopener"><strong>Twitter thread from Salma Patel</strong></a>:</p>
