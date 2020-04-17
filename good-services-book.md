@@ -73,7 +73,7 @@ Before wondering how you're going to manage your users expectations, it's import
 <span class="lou">Make things open: it makes things better</span><br><br>
 
 <h3>6. Require no prior knowledge to use</h3>
-In recent years, a new generation of 'parasitic services' have evolved to help us negociate some of the more cumbersome and difficult to understand services. There is often a cost to it, which means some users who can't afford this are excluded.<br>
+In recent years, a new generation of 'parasitic services' have evolved to help us negotiate some of the more cumbersome and difficult to understand services. There is often a cost to it, which means some users who can't afford this are excluded.<br>
 It's particularly prevalent in the public sector, where there are many services who believe their users to be brokers, conveyancers, tax specialist or legal advisors. <br>
 <span class="lou">Our understanding of a new service is based on past experiences</span><br>
 <span class="lou-y">When people don't know how something work, they make it up</span><br>
