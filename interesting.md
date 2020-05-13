@@ -5,7 +5,7 @@
 - [Starbucks Pattern Lib / Style Guide](https://www.starbucks.com/static/reference/styleguide/)
 - [Brad Frost - Designing in the open](http://bradfrost.com/blog/post/designing-in-the-open/)
 - [Timeline - Greater Pittsburgh Foodbank Redesign](http://foodbank.bradfrostweb.com/timeline/)
-- [Hackney Research Library](https://research.localgov.digital/)
+- [Hackney Council - Research Library](https://research.localgov.digital/)
 
 
 ## Our stuff
