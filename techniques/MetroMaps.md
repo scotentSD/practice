@@ -6,7 +6,7 @@ Metro maps **"Add Simplicity"**
 
 Most people have seen their local underground map or at least teh London Underground one. 
 Here are some more examples of Metro Maps
-- [Service Map](/files/ServiceMap.png)
+- [Service Map](/practice//files/ServiceMap.png)
 - 
 - 
 
@@ -15,7 +15,7 @@ There are a plethora of tools to draw metro maps with. Traditionally we used onl
 
 
 Templates
-- [Illustrator Template](/files/MetroMap_Template.ai)
+- [Illustrator Template](/practice/files/MetroMap_Template.ai)
 
 
 Reading
