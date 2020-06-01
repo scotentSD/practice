@@ -13,6 +13,7 @@
 - [Wardley maps](/techniques/wardley.md)
 - [OKR - Objectives and Key Results](/techniques/OKR.md)
 - [Liberating Structures](/techniques/LS.md)
+- [Metro Maps](/techniques/<MetroMaps.md)
 
 ---
 
