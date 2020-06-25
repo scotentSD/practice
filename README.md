@@ -42,7 +42,7 @@
 
 # Books
 
-- [Good Services - by Lou Downe](good-services-book.md) also see the [Good services scale] (https://good.services/the-good-services-scale)
+- [Good Services - by Lou Downe](good-services-book.md) also see the [Good services scale](https://good.services/the-good-services-scale)
 
 <br>
 <div>Last updated: {{site.time | date_to_string}}</div>
