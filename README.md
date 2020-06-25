@@ -14,6 +14,7 @@
 - [OKR - Objectives and Key Results](/techniques/OKR.md)
 - [Liberating Structures](/techniques/LS.md)
 - [Metro Maps](/techniques/MetroMaps.md)
+- [The 3 horizons](/techniques/3horizons.md)
 
 ---
 
@@ -44,15 +45,15 @@
 
 - [Good Services - by Lou Downe](good-services-book.md) also see the [Good services scale](https://good.services/the-good-services-scale)
 
-<br>
-<div>Last updated: {{site.time | date_to_string}}</div>
+---
 
 # Feedback Test
 
 [Go to the page to see the test](feedbacktest.md)
 
 
-
+<br>
+<div>Last updated: {{site.time | date_to_string}}</div>
 
 
 
