@@ -26,6 +26,7 @@
 - [Articles on people's experience](remote/articles)
 - [COVID19 specific material](remote/covid19)
 - [Tools](remote/tools)
+- [Accessible and Effective Remote Working](https://inclusionscotland.org/accessible-and-effective-remote-working/) by Inclusion Scotland
 
 ---
 
