@@ -9,5 +9,6 @@ The Three Horizons framework is a simple, intuitive way to encourage a conversat
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w7V6C3580WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![diagram showing the 3 lines: what to let go of, what to conserve, and transformative innovation to reach a shared vision](../images/3horizons.png)
+
 _[A map of the Three Horizons and how they interrelate from H3Uni](https://www.h3uni.org/practices/foresight-three-horizons/)_
 
