@@ -1,4 +1,8 @@
 # Doing User Research Remotely
+
+[How we do user research analysis at the Heritage Fund](https://medium.com/doing-service-design-at-the-national-lottery/how-we-do-user-research-analysis-at-the-heritage-fund-2ed67bc45720) by Jo Arthur, on **affinity mapping remotely**
+
+
 <p><a href="https://medium.com/@david.hamill/moderating-ux-research-with-zoom-1d4e89614277" target="_blank" rel="noopener"><strong>Moderating UX research with Zoom</strong> - Article from David Hamill</a></p>
 <br>
  <p><a href="https://docs.google.com/presentation/d/1T0sjyDlvCRJG95q9LYmPiPaU8baLG7L2IQwRpNsfq2M/edit#slide=id.g7f2e6c6d61_4_4" target="_blank" rel="noopener"><strong>Making design research work remotely - From FutureGov</strong> - Google doc</a></p>
