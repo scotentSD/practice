@@ -15,7 +15,9 @@
 - [Liberating Structures](/techniques/LS.md)
 - [Metro Maps](/techniques/MetroMaps.md)
 - [The 3 horizons](/techniques/3horizons.md)
-
+- Good services
+   - [15 Principles of Good Services](https://good.services/15-principles-of-good-service-design)
+   - [Good Services Scale](https://good.services/the-good-services-scale)
 ---
 
 
@@ -55,6 +57,3 @@
 
 <br>
 <div>Last updated: {{site.time | date_to_string}}</div>
-
-
-
