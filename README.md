@@ -42,6 +42,7 @@
 
 - [Interesting links](interesting.md)
 - [Bias in Digital Channel usage](bias.md)
+- [Monzo - Tone of Voice Guide](https://monzo.com/tone-of-voice/)
 
 ---
 
