@@ -24,7 +24,6 @@
 - [Pure Scorecard](/pure/pure.html)
 - [Usability Ratings Index](/pure/ratings.html)
 
-
 ---
 
 # Remote working
