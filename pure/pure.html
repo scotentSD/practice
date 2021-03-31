@@ -81,7 +81,6 @@
 <div class="container" style="margin-left: 1em;">
   <div class="row">
    <div class="col-sm-12">
-
       <div style="font-size: 1.8em;" class="starter-template" id="divpureHead">
         EASE OF USE SCORECARD
         <h1 id="txtpureHead">WEBSITE</h1>
@@ -131,7 +130,6 @@ function getText() {
         if(typeof(data[0]) === 'undefined') {
           return null;
         } else {
-            //zzzzzz
           $.each(data, function( index, row ) {  //ZZZZZZ
                   html += '<tr style="border-top-width: 0px;">';
                   var varTot = 0;
@@ -171,7 +169,7 @@ function getText() {
 
 
                   //alert(varTot);
-                  //Add the total to teh end of the row & choose red, orange or green background
+                  //Add the total to the end of the row & choose red, orange or green background
 
                   if (varMax > runMax){runMax = varMax};
                   //alert(runMax)
@@ -221,9 +219,14 @@ function getText() {
             <td style="padding-left:10px; font-size: 1.2em;"><br />Lower scores are better. Green(1) is better than Orange(2). Orange is better than Red(3)</td>
           </tr>
           <tr>
-            <td style="padding-left:10px; font-size: 1.2em;"><br />1. The score indicates the Effort(Cost) to the user<br />2. Removing or improving each elemnt of a step, will reduce the Effort(Cost) to the user.<br />3. The colour of the Total(Teardrop) reflects the worst element</td>
+            <td style="padding-left:10px; font-size: 1.2em;"><br />1. The score indicates the Effort(Cost) to the user </td>
           </tr>
-        
+          <tr>
+            <td style="padding-left:10px; font-size: 1.2em;"><br /> 2. Removing or improving each elemnt of a step, will reduce the Effort(Cost) to the user.</td>
+          </tr>
+          <tr>
+            <td style="padding-left:10px; font-size: 1.2em;"><br /> 3. The colour of the Total(Teardrop) reflects the worst element</td>
+          </tr>
         </table>
       </div>
     </div>
