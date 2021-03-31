@@ -22,7 +22,7 @@
 ---
 # Tools
 - [Pure Scorecard](/pure/pure.html)
-- [Usability Ratings Index](/pure/ratings.html)
+- [Usability Ratings Index](/pure/rating.html)
 
 ---
 
