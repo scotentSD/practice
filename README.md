@@ -20,7 +20,12 @@
    - [Good Services Scale](https://good.services/the-good-services-scale)
 
 ---
+# Tools
+- [Pure Scorecard](/pure/pure.html)
+- [Usability Ratings Index](/pure/ratings.html)
 
+
+---
 
 # Remote working
 - [User Research](remote/user-research)
