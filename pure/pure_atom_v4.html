@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible"
+content="IE=edge"> <meta name="viewport" content="width=device-width,
+initial-scale=1"> <!-- The above 3 meta tags *must* come first in the head; any
+other head content must come *after* these tags --> <meta name="description"
+content=""> <meta name="author" content=""> <link rel="icon"
+href="../../favicon.ico">
+
+    <title>Scottish Enterprise</title>
+
+    <!-- Bootstrap core CSS --> <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template --> <link
+    href="css/starter-template.css" rel="stylesheet"> <link
+    href="css/exports-wizard.css" rel="stylesheet">
+
+    <!-- Jquery --> <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- jquery-csv   for parsing csv documents--> <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Scottish Enterprise V3</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="#contact">Support for Business</a></li>
+            <li><a href="#contact">Learning Zone</a></li>
+            <li><a href="#contact">Our Organisation</a></li> -->
+          </li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container">
+  <div class="row">
+   <div class="col-sm-9">
+      <div class="starter-template">
+        <h1>PURE SCORING GENERATOR</h1>
+      </div>
+    </div>
+  </div>
+
+<!-- Target for the table -->
+
+<div id="csv-display">
+</div>
+
+
+<script type="text/javascript">
+
+var data;
+  $.ajax({
+    type: "GET",
+    url: "pure.csv",
+    dataType: "text",
+    success: function(response)
+    {
+    data = $.csv.toArrays(response);
+    generateHtmlTable(data);
+    }
+  });
+
+
+function generateHtmlTable(data) {
+    var html = '<table  class="table table-condensed table-hover table-striped"><tbody>';
+
+//do nothing if teh array is empty
+      if(typeof(data[0]) === 'undefined') {
+        return null;
+      } else {
+
+//zzzzzz
+        $.each(data, function( index, row ) {  //ZZZZZZ
+                html += '<tr>';
+                $.each(row, function( index, colData ) {
+                      html += '<td>';
+                      html += colData;
+                      html += '</td>';
+                });
+                html += '</tr>';
+        }); //end of ZZZZZZ
+//zzzzzz
+//close off the table
+        html += '</tbody>';
+        html += '</table>';
+        // alert(html);
+        $('#csv-display').append(html);
+      } // endof IF not undefined
+} // end of function
+
+</script>
+<!-- end of container div -->
+</div>
+
+
+</body>
+</html>
+<!--
+<small id="emailHelp" class="form-text text-muted">Please describe to challenges or barriers to achieving your project.  Why do you need help?   What value might SE add?)</small>
+-->

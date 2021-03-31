@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Scottish Enterprise</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/exports-wizard.css" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jquery-csv   for parsing csv documents-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    <style>
+        .scores{
+         position: relative;
+         text-align: center;
+         color: white;
+         display: inline-block; /* Make the width of box same as image */
+        }
+        /* Bottom left text */
+        .bottom-left {
+          position: absolute;
+          bottom: 53px;
+          left: 40%;
+          right: 45%;
+          z-index: 10;
+          font-size: 1.7em;
+          text-align: center;
+        }
+
+       .boxScore{
+        	position: relative;
+        	display: inline-block; /* Make the width of box same as image */
+
+    	   }
+
+    	.boxScore .textScore{
+        	position: absolute;
+        	z-index: 999;
+        	margin: 0 auto;
+        	left: 0;
+        	right: 0;
+        	text-align: center;
+        	top: 20%; /* Adjust this value to move the positioned div up and down */
+        	background: rgba(0, 0, 0, 0.0);
+        	font-family: Arial,sans-serif;
+        	color: #fff;
+        	width: 60%; /* Set the width of the positioned div */
+        	font-size: 1.9em;
+    	}
+
+    	td.percent{
+    		height: 100px;
+    		padding-bottom:10px !important; 
+    		padding-top:10px !important; 
+    		border-top-width: 0px !important;
+    		vertical-align: bottom !important;
+    	}
+
+
+  
+
+
+    	td.txtcol{
+			width:200px !important; 
+			padding-bottom:10px !important; 
+			padding-top:10px !important; 
+			border-top-width: 0px !important;  
+			padding-left:15px !important;  
+			font-size: 1.5em !important;
+    		vertical-align: middle !important;
+    	}
+
+
+    </style>
+</head>
+
+<body onload="$('#pureKey').show(); $('#pureFooter').hide(); $('#pureHead').show();  $('#txtpureHead').hide();      ">
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Scottish Enterprise</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="#contact">Support for Business</a></li>
+            <li><a href="#contact">Learning Zone</a></li>
+            <li><a href="#contact">Our Organisation</a></li> -->
+          </li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+
+      <div class="starter-template" id="divpureHead">
+        USABILITY RATINGS SCORECARD
+        <h1 id="txtpureHead">WEBSITE</h1>
+        <div><textarea name="pureHead" id="pureHead" placeholder="Enter the heading..." rows="1" cols="50"></textarea></div>
+      </div>
+    </div>
+  </div>
+
+<!-- Target for the table -->
+
+<div id="csv-display">
+</div>
+ 
+   <div><textarea name="pureScore" id="pureScore" placeholder="Enter the text & scores..." rows="6" cols="100"></textarea></div>
+
+<div class="actions text-left" id="pureButton">
+      <button id="primary" onClick="getText()">Generate Usability Ratings Scorecard</button>
+</div>
+
+<script type="text/javascript">
+
+function getText() {
+//alert("triggered");
+    var val = document.getElementById("pureScore").value;
+      $('#pureHead').hide();
+      $('#txtpureHead').show();
+      $('#txtpureHead').html($('#pureHead').val());     
+      $('#pureScore').hide();
+      $('#pureButton').hide();
+      $('#pureKey').hide();
+      $('#pureFooter').show();
+
+<!-- TAKE THE PURE SCORES AND GENERATE THE TABLE -->
+      if (val != "") {
+          var data = $.csv.toArrays(val);
+          generateHtmlTable(data);
+        }
+      }
+
+  function generateHtmlTable(data) {
+      var html = '<table  class="table table-condensed table-hover table-striped"><tbody>';
+        //do nothing if the array is empty
+        if(typeof(data[0]) === 'undefined') {
+          return null;
+        } else {
+            //zzzzzz
+          $.each(data, function( index, row ) {  //ZZZZZZ
+                  html += '<tr style="border-top-width: 0px;">';
+                  var varTot = 0;
+                  var varMax= 0;
+                  $.each(row, function( index, colData ) {
+                        //html += '<td>';
+		                        switch (colData) {
+		                        	case '10':
+		                                html += '<td class="percent"><img src="SCORE10.png" style="height: 100px;"  >';
+		                        	 	break;
+		                          	case '20':
+		                                html += '<td  class="percent"><img src="SCORE20.png" style="height: 100px;" >';
+		                             	break;
+		                        	case '30':
+		                                html += '<td  class="percent"><img src="SCORE30.png" style="height: 100px;" >';
+		                             	break;
+		                            case '40':
+		                                html += '<td  class="percent"><img src="SCORE40.png" style="height: 100px;" >';
+		                             	break;
+		                           	case '50':
+		                                html += '<td  class="percent"><img src="SCORE50.png" style="height: 100px;" >';
+		                             	break;
+		                         	case '60':
+		                                html += '<td  class="percent"><img src="SCORE60.png" style="height: 100px;" >';
+		                             	break;
+		                           	case '70':
+		                                html += '<td  class="percent"><img src="SCORE70.png" style="height: 100px;" >';
+		                             	break;
+		                          	case '80':
+		                                html += '<td  class="percent"><img src="SCORE80.png" style="height: 100px;" >';
+		                             	break;
+		                        	case '90':
+		                                html += '<td  class="percent"><img src="SCORE90.png" style="height: 100px;" >';
+		                             	break;
+		                        	case '100':
+		                                html += '<td  class="percent"><img src="SCORE100.png" style="height: 100px;" >';
+		                             	break;		                             			        
+		                            case '0':
+		                               	html += '<td class="percent">  ';
+		                             	break;
+		                        	default:
+		                        		html += '<td class="txtcol">' +colData;
+		                        }
+                        //outputs "jQuery Wins!"
+                        html += '</td>';
+                  });             
+                  html += '</tr>';
+
+
+          }); //end of ZZZZZZ
+  //zzzzzz
+  //close off the table
+          html += '</tbody>';
+          html += '</table>';
+          // alert(html);
+          $('#csv-display').append(html);
+        } // endof IF not undefined
+
+  } // end of function
+
+</script>
+
+<!-- end of container div -->
+</div>
+
+<!-- footer -->
+<div class="container" id="pureFooter" onclick="$('#pureKey').toggle();">
+  <div class="row">
+   <div class="col-sm-9">
+        <table>
+          <tr>
+            <td style="padding-left:10px; font-size: 1.2em;">Ratings are Percentages</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+<div id="puredivFoot"></div>
+
+<hr/>
+<!-- Explanatory Key -->
+<!-- Explanatory Key -->
+<!-- Explanatory Key -->
+
+
+</body>
+</html>
+<!--
+<small id="emailHelp" class="form-text text-muted">Please describe to challenges or barriers to achieving your project.  Why do you need help?   What value might SE add?)</small>
+-->

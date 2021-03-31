@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Scottish Enterprise</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/exports-wizard.css" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jquery-csv   for parsing csv documents-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    <style>
+        .scores{
+         position: relative;
+         text-align: center;
+         color: white;
+         display: inline-block; /* Make the width of box same as image */
+        }
+        /* Bottom left text */
+        .bottom-left {
+          position: absolute;
+          bottom: 53px;
+          left: 40%;
+          right: 45%;
+          z-index: 10;
+          font-size: 1.7em;
+          text-align: center;
+        }
+
+       .boxScore{
+        	position: relative;
+        	display: inline-block; /* Make the width of box same as image */
+
+    	   }
+
+    	.boxScore .textScore{
+        	position: absolute;
+        	z-index: 999;
+        	margin: 0 auto;
+        	left: 0;
+        	right: 0;
+        	text-align: center;
+        	top: 20%; /* Adjust this value to move the positioned div up and down */
+        	background: rgba(0, 0, 0, 0.0);
+        	font-family: Arial,sans-serif;
+        	color: #fff;
+        	width: 60%; /* Set the width of the positioned div */
+        	font-size: 1.9em;
+    	}
+
+    </style>
+</head>
+
+<body onload="$('#pureKey').show(); $('#pureFooter').hide(); $('#pureHead').show();  $('#txtpureHead').hide();      ">
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Scottish Enterprise</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="#contact">Support for Business</a></li>
+            <li><a href="#contact">Learning Zone</a></li>
+            <li><a href="#contact">Our Organisation</a></li> -->
+          </li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+
+      <div class="starter-template" id="divpureHead">
+        EASE OF USE SCORECARD
+        <h1 id="txtpureHead">WEBSITE</h1>
+        <div><textarea name="pureHead" id="pureHead" placeholder="Enter the heading..." rows="1" cols="50"></textarea></div>
+      </div>
+    </div>
+  </div>
+
+<!-- Target for the table -->
+
+<div id="csv-display">
+</div>
+ 
+   <div><textarea name="pureScore" id="pureScore" placeholder="Enter the text & scores..." rows="4" cols="100"></textarea></div>
+
+<div class="actions text-left" id="pureButton">
+      <button id="primary" onClick="getText()">Generate Pure Score</button>
+</div>
+
+<script type="text/javascript">
+
+function getText() {
+//alert("triggered");
+    var val = document.getElementById("pureScore").value;
+      $('#pureHead').hide();
+      $('#txtpureHead').show();
+      $('#txtpureHead').html($('#pureHead').val());     
+      $('#pureScore').hide();
+      $('#pureButton').hide();
+      $('#pureKey').hide();
+      $('#pureFooter').show();
+
+<!-- TAKE THE PURE SCORES AND GENERATE THE TABLE -->
+      if (val != "") {
+          var data = $.csv.toArrays(val);
+          generateHtmlTable(data);
+        }
+      }
+
+  function generateHtmlTable(data) {
+      var colCount = 0;
+      var runTot = 0;
+      var runMax = 0;
+      var html = '<table  class="table table-condensed table-hover table-striped"><tbody>';
+        //do nothing if the array is empty
+        if(typeof(data[0]) === 'undefined') {
+          return null;
+        } else {
+            //zzzzzz
+          $.each(data, function( index, row ) {  //ZZZZZZ
+                  html += '<tr style="border-top-width: 0px;">';
+                  var varTot = 0;
+                  var varMax= 0;
+                  $.each(row, function( index, colData ) {
+                        //html += '<td>';
+		                        switch (colData) {
+		                        	case '1':
+		                        		//alert('1');
+		                                html += '<td style="width:75px; padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><img src="Pure1.png" height="100px">';
+		                                varTot += 1;
+		                             if (varMax < 1){varMax = 1;};
+		                        	 break;
+		                          	case '2':
+		                        		//alert('2');
+		                                html += '<td style="width:75px; padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><img src="Pure2.png" height="100px">';
+		                        		varTot += 2;
+		                             if (varMax < 2){varMax = 2;};
+		                             break;
+		                        	case '3':
+		                        		//alert('3');
+		                                html += '<td style="width:75px; padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><img src="Pure3.png" height="100px">';
+		                        		varTot += 3
+		                             if (varMax < 3){varMax = 3;};
+		                             break;
+		                            case '0':
+		                              //alert('0');
+		                              //html += '<img src="Pure3.png" height="100px">';
+		                               html += '<td style="width:75px; padding-bottom:10px; padding-top:10px; padding-left:15px;  border-top-width: 0px;">  '
+		                             break;
+		                        	default:
+		                        	html += '<td style="width:200px; padding-bottom:10px; padding-top:10px; border-top-width: 0px;  padding-left:15px;  font-size: 1.5em;">' +colData;
+		                        }
+                        //outputs "jQuery Wins!"
+                        html += '</td>';
+                  });
+
+
+                  //alert(varTot);
+                  //Add the total to teh end of the row & choose red, orange or green background
+
+                  if (varMax > runMax){runMax = varMax};
+                  //alert(runMax)
+                  runTot = runTot + varTot;
+                  //alert(runTot);
+			                  switch (varMax) {
+			                    case 1:
+			                      html+= '<td class="boxScore" style="padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><img src="puregreen.png"> <div class="textScore">' + varTot  + '</div></td>'
+			                      // html+= '<td class="scores"><img src="puregreen.png"> <div class="bottom-left">' + varTot  + '</div></td>'
+			                      break;
+			                    case 2:
+			                      html+= '<td class="boxScore" style="padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><img src="pureorange.png"> <div class="textScore">' + varTot + '</div></td>'
+			                      // html+= '<td class="scores"><img src="pureorange.png"> <div class="bottom-left">' + varTot + '</div></td>'
+			                      break;
+			                    case 3:
+			                      html+= '<td class="boxScore" style="padding-bottom:10px; padding-top:10px; border-top-width: 0px;"><div class="boxScore"><img src="purered.png"><div class="textScore">' + varTot  + '</div></div></td>'
+			                      // html+= '<td class="scores"><img src="purered.png"><div class="bottom-left">' + varTot  + '</div></td>'
+			                      ;break;
+			                    default:
+			                  }
+                  html += '</tr>';
+
+
+          }); //end of ZZZZZZ
+  //zzzzzz
+  //close off the table
+          html += '</tbody>';
+          html += '</table>';
+          // alert(html);
+          $('#csv-display').append(html);
+        } // endof IF not undefined
+
+  } // end of function
+
+</script>
+
+<!-- end of container div -->
+</div>
+
+<!-- footer -->
+<div class="container" id="pureFooter" onclick="$('#pureKey').toggle();">
+  <div class="row">
+   <div class="col-sm-9">
+        <table>
+          <tr>
+            <td style="padding-left:10px; font-size: 1.2em;">Lower scores are better. Green is better than Orange. Orange is better than Red</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+<div id="puredivFoot"></div>
+
+<hr/>
+<!-- Explanatory Key -->
+<!-- Explanatory Key -->
+<!-- Explanatory Key -->
+<div class="container" id="pureKey">
+  <div class="row">
+   <div class="col-sm-9">
+        <table>
+          <tr>
+            <td style="padding-bottom:10px;"><img src="Pure1.png" height="75px"></td>
+            <td style="padding-left:10px;">The step can be accomplished easily by the target user, </br>due to low cognitive load or because it’s a known pattern, </br>such as the acceptance of a terms-of-service agreement.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:10px;"><img src="Pure2.png" height="75px"></td>
+            <td style="padding-left:10px;">The step requires a notable degree of cognitive load </br>(or physical effort) by the target user, </br>but can generally be accomplished with some effort.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:10px;"><img src="Pure3.png" height="75px"></td>
+            <td style="padding-left:10px;">The step is difficult for the target user, </br>due to significant cognitive load or confusion; </br>some target users would likely fail or abandon the task here.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+<!--
+<small id="emailHelp" class="form-text text-muted">Please describe to challenges or barriers to achieving your project.  Why do you need help?   What value might SE add?)</small>
+-->
