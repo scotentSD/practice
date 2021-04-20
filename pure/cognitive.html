@@ -66,7 +66,7 @@
     </style>
 </head>
 
-<body onload="$('#pureKey').show(); $('#pureFooter').hide(); $('#pureHead').show();  $('#txtpureHead').hide();      "  >
+<body onload="$('#pureKey').show(); $('#pureFooter').hide(); $('#pureHead').show();  $('#txtpureHead').hide();   $('#txtpureUser').hide();    "  >
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -80,9 +80,11 @@
   <div class="row">
    <div class="col-sm-12">
       <div style="font-size: 1.8em;" class="starter-template" id="divpureHead">
-        EASE OF USE SCORECARD
-        <h1 id="txtpureHead">WEBSITE</h1>
-        <div style="margin-top: 1em;"><textarea style="font-size: 1.0em;" name="pureHead" id="pureHead" placeholder="Enter the heading... " rows="1" cols="40"></textarea></div>
+        Cognitive Walkthrough Scorecard
+        <h1 id="txtpureHead"></h1>
+        <h1 id="txtpureUser"></h1>
+        <div style="margin-top: 1em;"><textarea style="font-size: 1.0em;" name="pureHead" id="pureHead" placeholder="Enter the task... " rows="1" cols="40"></textarea></div>
+        <div style="margin-top: 1em;"><textarea style="font-size: 1.0em;" name="pureUser" id="pureUser" placeholder="Enter the user and capabilties/experience... " rows="1" cols="40"></textarea></div>
       </div>
     </div>
   </div>
@@ -104,11 +106,19 @@ function getText() {
     var val = document.getElementById("pureScore").value;
       $('#pureHead').hide();
       $('#txtpureHead').show();
-      $('#txtpureHead').html($('#pureHead').val());     
+      $('#txtpureHead').html($('#pureHead').val());   
+      
+      $('#pureUser').hide();
+      $('#txtpureUser').show();
+      $('#txtpureUser').html($('#pureUser').val());   
+      
       $('#pureScore').hide();
       $('#pureButton').hide();
       $('#pureKey').hide();
       $('#pureFooter').show();
+
+
+      $('#pureExample').hide();
 
 <!-- TAKE THE PURE SCORES AND GENERATE THE TABLE -->
       if (val != "") {
@@ -225,16 +235,16 @@ function getText() {
    <div class="col-sm-9">
         <table>
           <tr>
-            <td style="padding-left:10px; font-size: 1.2em;"><br />Lower scores are better. Green(1) is better than Orange(2). Orange is better than Red(3)</td>
+            <td style="padding-left:10px; font-size: 1.2em;"><br />Lower scores are better. 4 is great. 12 is terrible</td>
           </tr>
           <tr>
-            <td style="padding-left:10px; font-size: 1.2em;"><br />1. The score indicates the Effort(Cost) to the user </td>
+            <td style="padding-left:10px; font-size: 1.2em;"><br />1. The score indicates the Learnability of this solution </td>
           </tr>
           <tr>
-            <td style="padding-left:10px; font-size: 1.2em;"><br /> 2. Removing or improving each elemnt of a step, will reduce the Effort(Cost) to the user.</td>
+            <td style="padding-left:10px; font-size: 1.2em;"><br /> 2. Anything with a score of 3 is a fail.</td>
           </tr>
           <tr>
-            <td style="padding-left:10px; font-size: 1.2em;"><br /> 3. The colour of the Total(Teardrop) reflects the worst element</td>
+            <td style="padding-left:10px; font-size: 1.2em;"><br /> 3. The colour of the Teardrop-Total reflects the worst element</td>
           </tr>
         </table>
       </div>
@@ -267,6 +277,13 @@ function getText() {
     </div>
   </div>
 
+<div  id="pureExample">
+<h2>Example</h2>
+Actions, Matches Conceptual Model, Visible, The Obvious Choice, Feedback makes sense,</br>
+Step 1,1,2,1,2</br>
+Step 2,1,2,3,3</br>
+Step 3,1,1,1,1</br>
+</div>
 </body>
 </html>
 <!--
