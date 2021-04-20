@@ -7,19 +7,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
     <title>Scottish Enterprise</title>
 
-    <!-- Bootstrap core CSS -->
-    <!----> <link href="css/bootstrap.css" rel="stylesheet"> -->
-    <!-- Custom styles for this template -->
-    <!-- <link href="css/starter-template.css" rel="stylesheet">  -->
-    <!-- <link href="css/exports-wizard.css" rel="stylesheet">  -->
+
     <!-- Jquery -->
     <script src="jquery-3.6.0.min.js"></script>
     <!-- jquery-csv   for parsing csv documents-->
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script> -->
-    <script src="jquery-csv.js"></script>
+    <script src="https://scotentsd.github.io/practice/pure/jquery-csv.js"></script>
     <style>
         .scores{
          position: relative;
@@ -69,13 +65,6 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="https://scotengtsd.github.io/practice/pure/pure.html">Scottish Enterprise Pure Generator</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <!-- <li><a href="#contact">Support for Business</a></li>
-            <li><a href="#contact">Learning Zone</a></li>
-            <li><a href="#contact">Our Organisation</a></li> -->
-          </li>
-        </div><!--/.nav-collapse -->
       </div>
     </nav>
 
@@ -91,7 +80,6 @@
   </div>
 
 <!-- Target for the table -->
-
 <div id="csv-display">
    <div style="margin-top: 1em;">
       <div><textarea style="font-size: 1.4em;" name="pureScore" id="pureScore" placeholder="Enter the text & scores (0, 1 , 2 or 3) Use 0 for an empty element...  Example:  Home Page,1,1,2,1,3" rows="4" cols="80"></textarea></div>
@@ -125,6 +113,13 @@ function getText() {
       var colCount = 0;
       var runTot = 0;
       var runMax = 0;
+
+    // Table
+    // Table
+    // Table
+    // Table
+    // Table
+
       var html = '<table  class="table table-condensed table-hover table-striped"><tbody>';
         //do nothing if the array is empty
         if(typeof(data[0]) === 'undefined') {
@@ -194,13 +189,19 @@ function getText() {
 
 
           }); //end of ZZZZZZ
-  //zzzzzz
-  //close off the table
+        //zzzzzz
+        //close off the table
           html += '</tbody>';
           html += '</table>';
           // alert(html);
           $('#csv-display').append(html);
         } // endof IF not undefined
+    // End of TABLE
+    // End of TABLE
+    // End of TABLE
+
+
+
 
   } // end of function
 

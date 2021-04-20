@@ -1,32 +1,3 @@
-bplist00Ñ_WebMainResourceÕ	
-_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingName^WebResourceURL_WebResourceFrameNameO†H<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">/* eslint no-prototype-builtins: 0 */
-/**
- * jQuery-csv (jQuery Plugin)
- *
- * This document is licensed as free software under the terms of the
- * MIT License: http://www.opensource.org/licenses/mit-license.php
- *
- * Acknowledgements:
- * The original design and influence to implement this library as a jquery
- * plugin is influenced by jquery-json (http://code.google.com/p/jquery-json/).
- * If you're looking to use native JSON.Stringify but want additional backwards
- * compatibility for browsers that don't support it, I highly recommend you
- * check it out.
- *
- * A special thanks goes out to rwk@acm.org for providing a lot of valuable
- * feedback to the project including the core for the new FSM
- * (Finite State Machine) parsers. If you're looking for a stable TSV parser
- * be sure to take a look at jquery-tsv (http://code.google.com/p/jquery-tsv/).
-
- * For legal purposes I'll include the "NO WARRANTY EXPRESSED OR IMPLIED.
- * USE AT YOUR OWN RISK.". Which, in 'layman's terms' means, by using this
- * library you are accepting responsibility if it breaks your code.
- *
- * Legal jargon aside, I will do my best to provide a useful and stable core
- * that can effectively be built on.
- *
- * Copyrighted 2012 by Evan Plaice.
- */
 
 RegExp.escape = function (s) {
   return s.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&amp;');
@@ -38,7 +9,8 @@ RegExp.escape = function (s) {
   var $;
 
   // to keep backwards compatibility
-  if (typeof jQuery !== 'undefined' &amp;&amp; jQuery) {
+  if (typeof jQuery !== 'undefined' &amp;&amp; jQuery) 
+  {
     $ = jQuery;
   } else {
     $ = {};
@@ -1032,4 +1004,5 @@ RegExp.escape = function (s) {
     module.exports = $.csv;
   }
 }).call(this);
-</pre></body></html>Ztext/plainUUTF-8_Mhttps://raw.githubusercontent.com/typeiii/jquery-csv/master/src/jquery.csv.jsP    ( : P n } ”†à†ë†ñ‡A                           ‡B
+</pre></body></html>Ztext/plainUUTF-8_Mhttps://raw.githubusercontent.com/typeiii/jquery-csv/master/src/jquery.csv.jsP    ( : P n } ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A             
+              ï¿½B
