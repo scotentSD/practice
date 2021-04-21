@@ -5,8 +5,6 @@
 
 **These have scores of 1, 2 or 3**
 
-
-
 Actions,Will the user recognise & try to  achieve the right outcome?,Is action Visible,Will user recognise action as the correct one (Labelling & Signifiers),Will user understand feedback (Understanding progress towards goal),
 Click on Get support for a green project,3,1,3,
 Click on access specialist support,2,1,2,2
@@ -17,7 +15,6 @@ Fill in your message,2,1,2,2
 Agree to Ts and Cs,1,1,1,1
 Submit,1,1,1,3
 Read Thankyou Page and…,3,3,3,3
-
 
 ## Pure 
 
