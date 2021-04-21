@@ -1,5 +1,12 @@
 
 
+# Tools
+- [Cognitive Walkthrough](/pure/cognitive.html)
+- [Pure Scorecard](/pure/pure.html)
+- [Usability Ratings Index](/pure/rating.html)
+
+---
+
 # Techniques
 
 - [Accessibility ](https://scotentsd.github.io/a11y/)
@@ -18,11 +25,6 @@
 - Good services
    - [15 Principles of Good Services](https://good.services/15-principles-of-good-service-design)
    - [Good Services Scale](https://good.services/the-good-services-scale)
-
----
-# Tools
-- [Pure Scorecard](/pure/pure.html)
-- [Usability Ratings Index](/pure/rating.html)
 
 ---
 
