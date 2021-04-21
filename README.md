@@ -1,6 +1,5 @@
+# Tools
 
-
-# Tools
 - [Cognitive Walkthrough](/pure/cognitive.html)
 - [Pure Scorecard](/pure/pure.html)
 - [Usability Ratings Index](/pure/rating.html)
