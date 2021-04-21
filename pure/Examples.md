@@ -19,9 +19,6 @@ Submit,1,1,1,3
 Read Thankyou Page and…,3,3,3,3
 
 
-
-
-
 ## Pure 
 
 V1:Word Document,2,2,1,2,1
