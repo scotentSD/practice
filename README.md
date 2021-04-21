@@ -5,9 +5,6 @@
 - [Usability Ratings Index](/pure/rating.html)
 - [Examples of Data Sets](pure/examples.html)
 
-
-- - [Cognitive Walkthrough 2](/pure/cognitive2.html)
-
 ---
 
 # Techniques
