@@ -1,21 +1,23 @@
 
 prose:
+  rooturl: '/'
+  siteurl: 'http://scotentSD.github.io/practice'
+  relativeLinks: 'http://scotentSD.github.io/practice/links.jsonp'
+  media: 'media'
   metadata:
-    "/": |
-      title:    "Title of your page"
-      abstract: "Abstract"
-    "/services": |
-      title:    "Title of your page"
-      abstract: "Abstract"
-    "/techniques": |
-      title:    "Title of your page"
-      abstract: "Abstract"
-    "services": |
-      title:    "Title of your page"
-      abstract: "Abstract"
-    "techniques": |
-      title:    "Title of your page"
-      abstract: "Abstract"
-    "_posts/projects": |
-      name: "Project Name"
-      img:  "Project Thumbnail"
+    techniques:
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
+
