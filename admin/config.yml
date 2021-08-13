@@ -14,10 +14,9 @@ collections:
     fields:
       - { name: Title }
       
-      
- collections:
-  - label: "site"
-    name: "site"
+  - name: "site"
+    label: "site"
+    
     folder: "/"
     create: true
     fields:
