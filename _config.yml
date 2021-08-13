@@ -1,6 +1,6 @@
 
 prose:
-  rooturl: '/'
+  rooturl: ''
   siteurl: 'http://scotentSD.github.io/practice'
   relativeLinks: 'http://scotentSD.github.io/practice/links.jsonp'
   media: 'media'
