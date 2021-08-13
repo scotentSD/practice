@@ -7,6 +7,9 @@ prose:
     "/services": |
       title:    "Title of your page"
       abstract: "Abstract"
+    "/techniques": |
+      title:    "Title of your page"
+      abstract: "Abstract"
     "_posts/projects": |
       name: "Project Name"
       img:  "Project Thumbnail"
