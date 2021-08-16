@@ -8,7 +8,7 @@ prose:
     techniques:
       - name: "tags"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
