@@ -4,6 +4,8 @@
 - [Pure Scorecard](/pure/pure.html)
 - [Usability Ratings Index](/pure/rating.html)
 - [Examples of Data Sets](pure/examples.html)
+- [Scoring Spreadsheet Template](pure/scoring.xlsx)
+- [Accessibility checklist for designers](pure/checklist.pdf)
 
 ---
 
