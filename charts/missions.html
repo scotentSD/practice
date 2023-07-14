@@ -1,0 +1,332 @@
+<html>
+<head>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-sunburst.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+  <style type="text/css">
+    html,
+    body,
+    #container {
+      width: 100%;
+      height: 108%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container"></div>
+  <script>
+  anychart.onDocumentReady(function () {
+
+    // create data
+    var data = [
+      {name: "Scotent", value: 100,normal: {fill: "#660099"}, children: [
+          {name: "Missions", normal: {fill: "#00cc00"}, tooltip: "To boldly go..." , value: 70, children:
+          [
+
+
+                    {name: "Scaling", value: 32, normal: {fill: "#339999"}, hovered: {fontColor: "black"},tooltip: "Scaling Scotland’s<br>innovation strengths<br>into the high growth industries<br>of the future", children:
+                    [
+                      {name: "Workstreams", value: 14, normal: {fill: "#3399aa"},  tooltip: "", children:
+                      [
+                            {name: "What success<br>looks like", value: 2,  tooltip: ""},
+                            {name: "Future<br>Industries", value: 2,  tooltip: ""},
+                            {name: "Clusters", value: 2,  tooltip: ""},
+                            {name: "Disruptive<br>Innovation", value: 2,  tooltip: ""},
+                            {name: "Customer<br>Journey", value: 2, normal: {fill: "#FF3333"}, tooltip: ""},
+                            {name: "Places", value: 2,  tooltip: ""},
+                            {name: "Funding &<br>Investment",  value: 2,  tooltip: ""}
+                      ]
+                      },
+                      {name: "People", value: 14, normal: {fill: "#3399bb"},  tooltip: "", children:
+                                            [
+                                                  {name: "Change<br>Manager", value: 2,  tooltip: ""},
+                                                  {name: "Progr<br>Manager", value: 2,  tooltip: ""},
+                                                  {name: "Other", value: 2,  tooltip: ""}
+                                            ]
+                                            },
+                      {name: "Intelligent<br>Growth<br>Solutions", value:4,  normal: {fill: "#3399dd"},tooltip:"IoT enabled power and<br>communications platform consisting<br>of patented electrical,<br>electronic and mechanical technologies<br>as well as the world’s most<br>sophisticated ventilation system"},
+                      {name: "Innovation<br>Strategy", value: 12, normal: {fill: "#333333"},  tooltip: "", children:
+                          [
+                                {name: "Future Industries", value: 2,  tooltip: "", children:
+                                                      [
+                                                            {name: "Health<br>&<br>Life<br>Sciences", value: 2,  tooltip: ""},
+                                                            {name: "Data<br>&<br>Digital Tech", value: 2,  tooltip: ""},
+                                                            {name: "Advanced<br>Manufacturing", value: 2,  tooltip: ""}
+                                                      ]
+                                },
+                                {name: "FinTech", value: 2,  tooltip: ""},
+                                {name: "Human<br>Health", value: 2,  tooltip: ""},
+                                {name: "Space", value: 2,  tooltip: ""},
+                                {name: "BioTech", value: 2,  tooltip: ""},
+                                {name: "Quantum<br>/ Photonics", value: 2,  tooltip: ""}
+                          ]
+                          }
+                    ]
+                    },
+
+
+                    {name: "Productivity", normal: {fill: "#339966"}, value: 25,  tooltip: "Driving capital investment<br> to deliver a step-change<br> in Scotland's productivity ", children:
+                    [
+                      {name: "Workstreams", value: 12, normal: {fill: "#339966"},  tooltip: "", children:
+                      [
+                            {name: "Capital<br>Investment", value: 2,  tooltip: ""},
+                            {name: "Enabling<br>export<br>capacity", value: 2,  tooltip: ""},
+                            {name: "Exploiting<br>industrial<br>assets", value: 2,  tooltip: ""},
+                            {name: "Leadership", value: 2, normal: {fill: "#FF3333"},  tooltip: ""},
+                            {name: "Company<br>engagement", value: 2,  tooltip: ""},
+                            {name: "Start<br>with<br>why", value: 2,  tooltip: ""}
+                      ]
+                      },
+                      {name: "People", value: 14, normal: {fill: "#33bb66"},  tooltip: "", children:
+                                            [
+                                                  {name: "Change<br>Manager", value: 2,  tooltip: ""},
+                                                  {name: "Progr<br>Manager", value: 2,  tooltip: ""},
+                                                  {name: "Other", value: 2,  tooltip: ""}
+                                            ]
+                                            },
+                      {name: "Innovation<br>Strategy", value: 12, normal: {fill: "#333333"},  tooltip: "", children:
+                      [
+                            {name: "National<br>Productivity<br>Programme ", value: 2,  tooltip: ""},
+                            {name: "Digital technologies<br>automation and<br>energy efficient<br>business processes", value: 2,  tooltip: ""},
+                            {name: "Investment<br>in<br>plant<br>and<br>Machinery", value: 2,  tooltip: ""},
+                            {name: "Innovation<br>Strategy<br>priority<br>Adoption<br>&<br>Diffusion", value: 2,  tooltip: ""}
+                      ]
+                      }
+                    ]
+                    },
+
+
+                    {name: "Green", normal: {fill: "#339900"}, value: 30,  tooltip: "Creating an internationally <br>competitive green energy industry<br> in Scotland by 2030", children:
+                    [
+                          {name: "Workstreams", normal: {fill: "#339900"}, value: 6,  tooltip: "", children:
+                          [
+                                {name: "Awareness: ", value: 1,  tooltip: ""},
+                                {name: "Inward Investment: ", value: 1,  tooltip: ""},
+                                {name: "Infrastructure: ", value: 1,  tooltip: ""},
+                                {name: "Green Grants", value: 1,  tooltip: ""},
+                                {name: "Manufacturing Engagement", value: 1,  tooltip: ""},
+                                {name: "Government Collaboration",  value: 1,  tooltip: ""}
+
+                          ]
+                          },
+                          {name: "People", value: 14, normal: {fill: "#33aa00"},  tooltip: "", children:
+                                                [
+                                                      {name: "Change<br>Manager", value: 2,  tooltip: ""},
+                                                      {name: "Progr<br>Manager", value: 2,  tooltip: ""},
+                                                      {name: "Progr<br>Manager", value: 2,  tooltip: ""}
+                                                ]
+                                                },
+                          {name: "Areas", value: 5, normal: {fill: "#33bb00"},  tooltip: "", children:
+                          [
+                                {name: "Offshore<br>wind", value: 1,  tooltip: ""},
+                                {name: "Hydrogen", value: 1,  tooltip: ""},
+                                {name: "Green<br>Heat", value: 1,  tooltip: ""},
+                                {name: "Transport<br>Decarbonisation", value: 1,  tooltip: ""},
+                                {name: "Other?", value: 8, normal: {fill: "#33cc00"},  tooltip: "", children:
+                                [
+                                  {name: "ScotWind<br>Investment", value: 1,  tooltip: "Potential for 14,000 jobs"},
+                                  {name: "Decarbonizing<br>heat", value: 1,  tooltip: "Potential for 16,000 jobs"},
+                                  {name: "Hydrogen<br>Economy", value: 1,  tooltip: "Potential for 300,000 jobs"},
+                                  {name: "Smart<br>Green<br>Shipping",  value: 1,  tooltip: "Targets to reduce<br>greenhouse gas<br>and fuel costs<br>by at least 20%<br>via high tech sails"}
+
+                                ]
+                              },
+                                {name: "Other<br>Energy",  value: 2,  tooltip: ""}
+
+                          ]
+                          },
+
+                        {name: "Innovation<br>Strategy", value: 12, normal: {fill: "#333333"},  tooltip: "", children:
+                            [
+                                  {name: "Floating<br>Offshore<br>Wind", value: 2,  tooltip: ""},
+                                  {name: "Built<br>Environment<br>Transition", value: 2,  tooltip: ""},
+                                  {name: "Transport<br>Decarbonisation", value: 2,  tooltip: ""},
+                                  {name: "Hydrogen<br>Generation<br>Storage<br>and<br>Transport", value: 2,  tooltip: ""}
+                            ]
+                            }
+
+
+                    ]
+                    }
+          ]
+          },
+
+          {name: "Digital", value: 6, normal: {fill: "#6600ff"}, tooltip: " " , children:
+          [
+                    {name: "xxx", value: 4, normal: {fill: "#6600ff"},  tooltip: " " , children:
+                    [
+
+                          {name: "xxx", value:2 ,  tooltip: " "}
+                    ]
+                    },
+
+
+                    {name: "xxx", value: 4, normal: {fill: "#6600ff"},  tooltip: "", children:
+                    [
+
+                            {name: "xxx", value: 2,  tooltip: ""}
+                    ]
+                    },
+
+
+                    {name: "xxx", value: 4, normal: {fill: "#6600ff"},  tooltip: "" ,children:
+                    [
+
+                            {name: "xxx", value: 2,  tooltip: ""}
+                    ]
+                    }
+
+          ]
+        },
+
+
+          {name: "NSET", value: 12, normal: {fill: "#cc0000"},  tooltip: " " , children:
+          [
+                    {name: "Greener", value: 4, normal: {fill: "#cc0000"},  tooltip: " " , children:
+                    [
+                          {name: "Smart<br>Green<br>Shipping",  value:2,  tooltip: "Targets to reduce<br>greenhouse gas<br>and fuel costs<br>by at least 20%<br>via high tech sails"},
+                          {name: "Net Zero", value:2 ,  tooltip: " "}
+                    ]
+                    },
+
+
+                    {name: "Wealthier", value: 4, normal: {fill: "#cc2200"},  tooltip: "", children:
+                    [
+                            {name: "xxx", value: 2,  tooltip: ""}
+                    ]
+                    },
+
+
+                    {name: "Fairer", value: 4, normal: {fill: "#cc4400"},  tooltip: "" ,children:
+                    [
+                            {name: "Fair Work", value: 2,  tooltip: ""}
+                    ]
+                    }
+
+          ]
+        },
+
+
+        {name: "3 I's", value: 6, normal: {fill: "#ff0066"}, tooltip: " " , children:
+        [
+                  {name: "International", value: 4, normal: {fill: "#ff0066"},  tooltip: " " , children:
+                  [
+
+                        {name: "xxx", value:2 ,  tooltip: " "}
+                  ]
+                  },
+
+
+                  {name: "Investment", value: 4, normal: {fill: "#ff0088"},  tooltip: "", children:
+                  [
+
+                          {name: "xxx", value: 2,  tooltip: ""}
+                  ]
+                  },
+
+
+                  {name: "Innovation", value: 4, normal: {fill: "#ff00aa"},  tooltip: "" ,children:
+                  [
+
+                          {name: "xxx", value: 2,  tooltip: ""}
+                  ]
+                  }
+
+        ]
+        }
+     ]}
+    ];
+
+    // create a chart and set the data
+    var chart = anychart.sunburst(data, "as-tree");
+    // set the calculation mode
+
+
+
+//   chart.calculationMode("parent-dependent");
+  chart.calculationMode("parent-independent");
+//chart.calculationMode("ordinal-from-root");
+//   chart.calculationMode("ordinal-from-leaves");
+
+
+    // configure the visual settings of the chart
+    //chart.hovered().fill("#ffffff", 0.4);
+    chart.hovered().fill("#ff0000", 0.8);
+    chart.selected().fill("#FF0000", 0.6);
+    chart.selected().hatchFill("forward-diagonal", "#96a6a6", 0.5, 12);
+    chart.normal().stroke("#96a6a6", 2);
+    chart.hovered().stroke("#ffffff", 2);
+
+////// FAIL
+    chart.hovered().fontColor("#339900");
+chart.hovered().fontColor("Green");
+//////
+
+    //chart.hovered().stroke("#96a6a6", 2);
+    chart.selected().stroke("#96a6a6", 4);
+
+
+    // set the chart title
+/////Fail
+  //  title.enabled(false);
+    //chart.labels().fontColor('green');
+
+/////Fail
+  // adjust title
+        var title = chart.title();
+        // place title at the bottom
+        title.orientation("bottom");
+        // stick title to the left
+        title.align("left");
+
+
+    chart.title().useHtml(true);
+    chart.title("Scottish Enterprise Strategy and Stuff");
+    //chart.title.enabled(true);
+
+    // set the container id
+    chart.container("container");
+
+
+
+
+
+// Fill Options
+// Fill Options
+// Fill Options
+// lighten teh chart as you go
+// chart.fill(function () {
+//   if (this.parent)
+//     return anychart.color.lighten(this.parentColor, 0.2);
+//   return this.mainColor;
+// });
+
+
+    // enable HTML for labels
+    chart.labels().useHtml(true);
+
+    // configure labels
+    chart.labels().format("<span style='font-weight:bold; color:white'>{%name}</span>");
+
+    // configure labels of leaves
+    chart.leaves().labels().format("<span style='font-weight:bold; color:white'>{%name}</span>");
+
+    // configure tooltips
+    chart.tooltip().format("{%tooltip}");
+
+    // enable HTML for labels
+    chart.labels().useHtml(true);
+
+    // enable HTML for labels
+    chart.tooltip().useHtml(true);
+
+    // initiate drawing the chart
+    chart.draw();
+  });
+
+  </script>
+</body>
+</html>
