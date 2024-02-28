@@ -50,7 +50,7 @@ Have a quick look at the [GDS style Powerpoint on Design Crits V2](GDSDesignCcri
 - What are the user needs?
 - What is the policy intent?
 - What assumptions or constraints are you working with?
-- A map/summary of these activities and diagrams such as this [SEP Crit Prep Page](https://numbat70.github.io/SEP)
+- A map/summary of these activities and diagrams such as this [SEP Assessment Prep Page](https://numbat70.github.io/sep)
 - Fill in a [Crit Canvas](Saltire_Crit_Canvas.pdf) and bring it with you
 
 # Criters
