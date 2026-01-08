@@ -1,6 +1,5 @@
 # Tools
 
-- [Accessibility](/a11y/a11y.md)
 - [Cognitive Walkthrough](/pure/cognitive.html)
 - [Pure Scorecard](/pure/pure.html)
 - [Usability Ratings Index](/pure/rating.html)
@@ -12,7 +11,7 @@
 
 # Techniques
 
-
+- [Accessibility](/a11y/a11y.md)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
