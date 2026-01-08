@@ -11,7 +11,7 @@
 
 # Techniques
 
-- [Accessibility ](https://scotentsd.github.io/a11y/)
+- [Accessibility ](a11y/ally.md)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
