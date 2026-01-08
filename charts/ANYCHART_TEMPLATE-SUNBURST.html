@@ -1,0 +1,178 @@
+<html>
+<head>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-sunburst.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+  <style type="text/css">
+    html,
+    body,
+    #container {
+      width: 100%;
+      height: 102%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container"></div>
+  <script>
+  anychart.onDocumentReady(function () {
+
+    // create data
+    var data = [
+      {name: "TITLE", value: 100,normal: {fill: "#660099"}, children: [
+          {name: "AAA", normal: {fill: "#00cc00"}, tooltip: "To boldly go..." , value: 60, children:
+          [
+                    {name: "BBB", value: 20, normal: {fill: "#339999"}, tooltip: "xxx", children:
+                    [
+                      {name: "B1", value: 10,  tooltip: "", children:
+                      [
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""}
+                      ]
+                      },
+                          {name: "B2", value: 5, tooltip:"xxx"}
+                    ]
+                    },
+                    {name: "CCC", normal: {fill: "#339966"}, value: 20,  tooltip: "xxx", children:
+                    [
+                      {name: "C1", value: 10,  tooltip: "", children:
+                      [
+                        {name: "xxx", value: 2,  tooltip: ""},
+                        {name: "xxx", value: 2,  tooltip: ""},
+                        {name: "xxx", value: 2,  tooltip: ""},
+                        {name: "xxx", value: 2,  tooltip: ""},
+                        {name: "xxx", value: 2,  tooltip: ""}
+                      ]
+                      },
+                          {name: "C2", value: 5, tooltip:"xxx"}
+                    ]
+                    },
+                    {name: "DDD", normal: {fill: "#339900"}, value: 20,  tooltip: "xxx", children:
+                    [
+                          {name: "D1", value: 10, normal: {fill: "#33cc00"},  tooltip: "", children:
+                          [
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""},
+                            {name: "xxx", value: 2,  tooltip: ""}
+                          ]
+                          },
+                          {name: "D2", value: 5, tooltip:"xxx"}
+
+
+                    ]
+                    }
+          ]
+          },
+
+
+
+        {name: "111", value: 25, normal: {fill: "#ff0066"}, tooltip: " " , children:
+        [
+          {name: "222", normal: {fill: "#ff0033"}, value: 15,  tooltip: "xxx", children:
+          [
+                {name: "21", value: 10,  tooltip: "", children:
+                [
+                  {name: "211", value: 2,  tooltip: ""},
+                  {name: "212", value: 2,  tooltip: ""},
+                  {name: "213", value: 2,  tooltip: ""},
+                  {name: "214", value: 2,  tooltip: ""},
+                  {name: "215", value: 2,  tooltip: ""}
+                ]
+                },
+                {name: "22", value: 5, tooltip:"xxx"}
+          ]
+          },
+
+                  {name: "333", value: 6, normal: {fill: "#ff00aa"},  tooltip: "" ,children:
+                  [
+                          {name: "31", value: 3,  tooltip: ""},
+                          {name: "32", value: 3,  tooltip: ""}
+                  ]
+                  }
+
+        ]
+        }
+     ]}
+    ];
+
+    // create a chart and set the data
+    var chart = anychart.sunburst(data, "as-tree");
+
+    // set the calculation mode
+    // set the calculation mode
+    // set the calculation mode
+
+     chart.calculationMode("parent-dependent");
+    // chart.calculationMode("parent-independent");
+    // chart.calculationMode("ordinal-from-root");
+    // chart.calculationMode("ordinal-from-leaves");
+
+    // set the calculation mode
+    // set the calculation mode
+    // set the calculation mode
+
+
+
+    // configure the visual settings of the chart
+    chart.hovered().fill("#96a6a6", 0.4);
+    chart.selected().fill("#FF0000", 0.6);
+    chart.selected().hatchFill("forward-diagonal", "#96a6a6", 0.5, 12);
+    chart.normal().stroke("#96a6a6", 2);
+    chart.hovered().stroke("#96a6a6", 2);
+    chart.selected().stroke("#96a6a6", 4);
+
+    // set the chart title
+    chart.title().useHtml(true);
+    chart.title("Scottish Enterprise Strategy and Stuff");
+
+    // set the container id
+    chart.container("container");
+
+
+
+
+
+// Fill Options
+// Fill Options
+// Fill Options
+// lighten teh chart as you go
+// chart.fill(function () {
+//   if (this.parent)
+//     return anychart.color.lighten(this.parentColor, 0.2);
+//   return this.mainColor;
+// });
+
+
+    // enable HTML for labels
+    chart.labels().useHtml(true);
+
+    // configure labels
+    chart.labels().format("<span style='font-weight:bold'>{%name}</span>");
+
+    // configure labels of leaves
+    chart.leaves().labels().format("<span style='font-weight:bold'>{%name}</span>");
+
+    // configure tooltips
+    chart.tooltip().format("{%tooltip}");
+
+    // enable HTML for labels
+    chart.labels().useHtml(true);
+
+    // enable HTML for labels
+    chart.tooltip().useHtml(true);
+
+    // initiate drawing the chart
+    chart.draw();
+  });
+
+  </script>
+</body>
+</html>
