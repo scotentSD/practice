@@ -1,6 +1,6 @@
 # Tools
 
-- [Accessibility](/ally/ally)
+- [Accessibility](/ally/ally.md)
 - [Cognitive Walkthrough](/pure/cognitive.html)
 - [Pure Scorecard](/pure/pure.html)
 - [Usability Ratings Index](/pure/rating.html)
