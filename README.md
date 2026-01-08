@@ -6,6 +6,7 @@
 - [Examples of Data Sets](pure/examples.html)
 - [Scoring Spreadsheet Template](pure/scoring.xlsx)
 - [Accessibility checklist for designers](pure/checklist.pdf)
+- [Charts](charts/charts.md)
 
 ---
 
