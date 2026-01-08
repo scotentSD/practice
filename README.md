@@ -11,7 +11,7 @@
 
 # Techniques
 
-- [Accessibility ](/a11y/ally.md)
+- [Accessibility ](/ally/ally)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
