@@ -9,9 +9,10 @@
 
 ---
 
+
 # Techniques
 
-- [Accessibility ](/ally/ally)
+- [Accessibility](/a11y/a11y.md)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
 - [Customer Canvas](/techniques/CustomerCanvasV3.pdf)
