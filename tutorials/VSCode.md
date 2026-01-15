@@ -26,7 +26,7 @@ To add an extension:
 - Open VS Code:
 
 You will see this screen: 
-![VS Code window](https://scotentsd.github.io/tutorials/images/vscode.png)
+![VS Code window](images/vscode.png)
 
 
 
@@ -40,16 +40,16 @@ You will see this screen:
 - Click on **Extensions** in the left hand menu. _It is the 3 box's, with a 4th one flying off the top right corner_
 
 Search for **markdown**:
-![VS Code : Search Extensions](https://scotentsd.github.io/tutorials/images/extensionsearch.png){:height="40%" width="40%"}
+![VS Code : Search Extensions](images/extensionsearch.png){:height="40%" width="40%"}
 
 Install these Extensions: 
-![VS Code : Extensions](https://scotentsd.github.io/tutorials/images/installed.png){:height="40%" width="40%"}
+![VS Code : Extensions](images/installed.png){:height="40%" width="40%"}
 
 ## Extension Settings
 - Click on the Gear symbol next to an extension to open the settings 
 
 Select **Extention Settings**:
-![VS Code : Extensions Settings](https://scotentsd.github.io/tutorials/images/extensionsettings.png){:height="40%" width="40%"}
+![VS Code : Extensions Settings](images/extensionsettings.png){:height="40%" width="40%"}
 
 ### Running extensions
 
@@ -63,17 +63,17 @@ This can be opened by:
    1. This is usually **Markdown PDF: Export PDF**
 
 **Command Palette** bar:
-![VS Code :  Command Palette](https://scotentsd.github.io/tutorials/images/commandpalette.png){:height="60%" width="60%"}
+![VS Code :  Command Palette](images/commandpalette.png){:height="60%" width="60%"}
 
 
 Once you have used a feature several times, it starts to appear in the **Right Click** menu. 
 
 **Right Click** menu:
-![VS Code : Right Click Menu](https://scotentsd.github.io/tutorials/images/rightclick.png){:height="40%" width="40%"}
+![VS Code : Right Click Menu](images/rightclick.png){:height="40%" width="40%"}
 
 
 ## First Markdown Page
-Read about **[creating your first markdown page](https://scotentsd.github.io/tutorials/Content/MarkdownPage/)**
+Read about **[creating your first markdown page](MarkdownPage.md)**
 
 
 
