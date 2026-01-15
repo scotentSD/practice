@@ -13,6 +13,7 @@
 
 # Techniques
 
+- [Personas](personas/personas.md)
 - [Accessibility](/a11y/a11y.md)
 - [Design Crits - GDS style](crits/)
 - [Service Landscape Diagrams](/techniques/landscape.md)
@@ -54,7 +55,8 @@
 - [Interesting links](interesting.md)
 - [Bias in Digital Channel usage](bias.md)
 - [Monzo - Tone of Voice Guide](https://monzo.com/tone-of-voice/)
-- [Personas](personas/personas.md)
+- [Tutorials](tutorials/tutorials.md)
+
 
 ---
 
