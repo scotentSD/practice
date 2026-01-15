@@ -2,6 +2,7 @@
 title: Mermaid for Markdown
 category: Advanced Marksgown/Github
 order: 1
+mermaid: true
 ---
 
 <h2>Enabling Mermaid on a page</h2>
