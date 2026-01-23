@@ -1,6 +1,5 @@
-# Research & Testing
-
 {:.no_toc}
+# Research & Testing
 ## Table of Contents
 {:.no_toc}
 * TOC
